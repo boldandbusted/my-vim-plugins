@@ -85,3 +85,6 @@
 [submodule "vim-terraform"]
 	path = vim-terraform
 	url = https://github.com/hashivim/vim-terraform.git
+[submodule "DirDo"]
+	path = DirDo
+	url = https://github.com/vim-scripts/DirDo.vim.git
