@@ -55,3 +55,33 @@
 [submodule "vim-unimpaired"]
 	path = vim-unimpaired
 	url = git://github.com/tpope/vim-unimpaired.git
+[submodule "ale"]
+	path = ale
+	url = https://github.com/dense-analysis/ale.git
+[submodule "julia-vim"]
+	path = julia-vim
+	url = https://github.com/JuliaEditorSupport/julia-vim.git
+[submodule "matchit"]
+	path = matchit
+	url = https://github.com/chrisbra/matchit.git
+[submodule "open-browser.vim"]
+	path = open-browser.vim
+	url = https://github.com/tyru/open-browser.vim.git
+[submodule "plantuml-previewer.vim"]
+	path = plantuml-previewer.vim
+	url = https://github.com/weirongxu/plantuml-previewer.vim
+[submodule "plantuml-syntax"]
+	path = plantuml-syntax
+	url = https://github.com/aklt/plantuml-syntax.git
+[submodule "vim-markdown"]
+	path = vim-markdown
+	url = git@github.com:plasticboy/vim-markdown.git
+[submodule "vim-pandoc-syntax"]
+	path = vim-pandoc-syntax
+	url = git@github.com:vim-pandoc/vim-pandoc-syntax.git
+[submodule "vim-pandoc"]
+	path = vim-pandoc
+	url = git@github.com:vim-pandoc/vim-pandoc.git
+[submodule "vim-terraform"]
+	path = vim-terraform
+	url = https://github.com/hashivim/vim-terraform.git
