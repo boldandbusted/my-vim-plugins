@@ -1,0 +1,59 @@
+" From https://dougblack.io/words/a-good-vimrc.html
+syntax enable           " enable syntax processing
+set tabstop=2
+set softtabstop=2
+set expandtab
+set shiftwidth=2
+filetype indent on
+set wildmenu
+set showmatch
+
+" Syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+" From https://github.com/dense-analysis/ale#standard-installation
+" Put these lines at the very end of your vimrc file.
+
+" Load all plugins now.
+" Plugins need to be added to runtimepath before helptags can be generated.
+packloadall
+" Load all of the helptags now, after plugins have been loaded.
+" All messages and errors will be ignored.
+silent! helptags ALL
+
+" JKA 7/15/2020
+filetype plugin on
+
+let g:ycm_language_server = 
+  \ [ 
+  \   {
+  \     'name': 'terraform',
+  \     'cmdline': [ '/usr/local/bin/terraform-ls', '--stdio' ],
+  \     'filetypes': [ 'terraform' ]
+  \   }
+  \ ]
+
+"Uncomment to override defaults: (vim-instant-markdown)
+let g:instant_markdown_slow = 1
+"let g:instant_markdown_autostart = 0
+"let g:instant_markdown_open_to_the_world = 1
+"let g:instant_markdown_allow_unsafe_content = 1
+"let g:instant_markdown_allow_external_content = 0
+"let g:instant_markdown_mathjax = 1
+"let g:instant_markdown_logfile = '/tmp/instant_markdown.log'
+"let g:instant_markdown_autoscroll = 0
+"let g:instant_markdown_port = 8888
+"let g:instant_markdown_python = 1
+
+au FileType plantuml let g:plantuml_previewer#plantuml_jar_path = get(
+    \  matchlist(system('cat `which plantuml` | grep plantuml.jar'), '\v.*\s[''"]?(\S+plantuml\.jar).*'),
+    \  1,
+    \  0
+    \)
