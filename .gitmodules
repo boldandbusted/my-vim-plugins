@@ -88,3 +88,6 @@
 [submodule "DirDo"]
 	path = DirDo
 	url = https://github.com/vim-scripts/DirDo.vim.git
+[submodule "vim-asciidoctor"]
+	path = vim-asciidoctor
+	url = https://github.com/habamax/vim-asciidoctor.git
