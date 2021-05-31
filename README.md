@@ -13,7 +13,7 @@ This is mostly a rebundling of Vim plugins via git submodules.
 
 To use this repo, do something like the following:
 
-```
+```shell
 mkdir -p ~/.vim/pack/my-plugins/
 cd ~/.vim/pack/my-plugins/
 git clone --recurse-submodules --init <this repo URI> start
@@ -21,7 +21,7 @@ git clone --recurse-submodules --init <this repo URI> start
 
 Some plugins require post-update tasks, like YouCompleteMe:
 
-```
+```shell
 cd YouCompleteMe
 ./install.py
 ```
@@ -36,3 +36,23 @@ When this repo is updated, you can ensure an update to the submodules via:
 git pull --all --recurse-submodules
 git submodule update --remote --init
 ```
+
+## Tips and tricks
+
+"(Untracked content)" or "(modified)" git submodule status got you down? Try this:
+
+In each directory showing the above statuses:
+```shell
+cd <submodule directory>
+git reset --hard HEAD
+git clean -fxd
+cd ../
+```
+
+And repeat for each relevant git submodule directory.
+
+(Source: https://stackoverflow.com/a/18839908/2808798 )
+
+### Thanks for all the good code!
+
+I welcome suggestions or doc PRs. :)

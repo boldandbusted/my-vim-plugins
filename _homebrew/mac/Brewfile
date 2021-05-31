@@ -1,0 +1,269 @@
+tap "azure/functions"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "tlk/imagemagick-x11"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@1.1"
+# Automate deployment, configuration, and upgrading
+brew "ansible"
+# Checks ansible playbooks for practices and behaviour
+brew "ansible-lint"
+# Record and share terminal sessions
+brew "asciinema"
+# Use AWS IAM credentials to authenticate to Kubernetes
+brew "aws-iam-authenticator"
+# Official Amazon AWS command-line interface
+brew "awscli"
+# Microsoft Azure CLI 2.0
+brew "azure-cli"
+# Terminal bandwidth utilization tool
+brew "bandwhich"
+# Bourne-Again SHell, a UNIX command interpreter
+brew "bash"
+# Programmable completion for Bash 4.2+
+brew "bash-completion@2"
+# Fish completion for brew-cask
+brew "brew-cask-completion"
+# Pipe HTML to a browser
+brew "browser"
+# Control Google Chrome from the command-line
+brew "chrome-cli"
+# Cross-platform make
+brew "cmake"
+# Get a file from an HTTP, HTTPS or FTP server
+brew "curl"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# Go dependency management tool
+brew "dep"
+# Trace a chain of DNS servers to the source
+brew "dnstracer"
+# Pack, ship and run any application as a lightweight container
+brew "docker", link: false
+# Clean Docker containers, images, networks, and volumes
+brew "docker-clean"
+# Isolated development environments using Docker
+brew "docker-compose", link: false
+# Text mode web browser
+brew "elinks"
+# Platform built on V8 to build network applications
+brew "node"
+# AST-based pattern checker for JavaScript
+brew "eslint"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
+# Collection of GNU find, xargs, and locate
+brew "findutils"
+# X11 implementation of the Remote Desktop Protocol (RDP)
+brew "freerdp"
+# GitHub command-line tool
+brew "gh"
+# Distributed revision control system
+brew "git"
+# Tcl/Tk UI for the git revision control system
+brew "git-gui"
+# Command-driven, interactive function plotting
+brew "gnuplot"
+# Fast linters runner for Go
+brew "golangci-lint"
+# GNU grep, egrep and fgrep
+brew "grep"
+# GitHub Markdown previewer
+brew "grip"
+# Smarter Dockerfile linter to validate best practices
+brew "hadolint"
+# Kubernetes package manager
+brew "helm"
+# Improved top (interactive process viewer)
+brew "htop"
+# Calculate various network masks, etc. from a given IP address
+brew "ipcalc"
+# Modular IRC client
+brew "irssi"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
+# JSON parser and validator with a CLI
+brew "jsonlint"
+# Swiss-army knife of markup format conversion
+brew "pandoc"
+# Interactive environments for writing and running code
+brew "jupyterlab"
+# Kubernetes command-line interface
+brew "kubernetes-cli", link: false
+# Bash completion for Launchctl
+brew "launchctl-completion"
+# Pager program similar to more
+brew "less"
+# Small memory footprint, flexible web-server
+brew "lighttpd"
+# Lynx-like WWW browser that supports tables, menus, etc.
+brew "links"
+# Text-based web browser
+brew "lynx"
+# Text-to-HTML conversion tool
+brew "markdown"
+# Command-line based markdown presentation tool
+brew "mdp"
+# Cross platform, open source .NET development framework
+brew "mono"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# Library for color text mode, widget based user interfaces
+brew "newt"
+# Port scanning utility for large networks
+brew "nmap"
+# Open client for Cisco AnyConnect VPN
+brew "openconnect"
+# OpenBSD freely-licensed SSH connectivity tools
+brew "openssh"
+# Tool for creating identical machine images for multiple platforms
+brew "packer"
+# Draw UML diagrams
+brew "plantuml"
+# Object-relational database system
+brew "postgresql"
+# Object-relational database system
+brew "postgresql@11"
+# Show ps output as a tree
+brew "pstree"
+# It's not just a linter that annoys you!
+brew "pylint"
+# Command-line YAML and XML processor that wraps jq
+brew "python-yq"
+# Ruby version manager
+brew "rbenv"
+# Rsync for cloud storage
+brew "rclone"
+# UNIX client for connecting to Windows Remote Desktop Services
+brew "rdesktop"
+# Reattach process (e.g., tmux) to background
+brew "reattach-to-user-namespace"
+# Powerful, clean, object-oriented scripting language
+brew "ruby"
+# Work with remote images registries
+brew "skopeo"
+# Proxy server that works as a poor man's VPN
+brew "sshuttle"
+# Version control system designed to be a better CVS
+brew "subversion"
+# User interface to the TELNET protocol
+brew "telnet"
+# Record terminal sessions as SVG animations
+brew "termtosvg"
+# Tool to build, change, and version infrastructure
+brew "terraform"
+# Terraform Language Server
+brew "terraform-ls"
+# CLI tool to generate terraform files from existing infrastructure
+brew "terraformer"
+# Export existing AWS resources to Terraform style (tf, tfstate)
+brew "terraforming"
+# Thin wrapper for Terraform e.g. for locking state
+brew "terragrunt"
+# Linter for Terraform files
+brew "tflint"
+# Code-search similar to ack
+brew "the_silver_searcher"
+# High-performance, platform-neutral implementation of VNC
+brew "tiger-vnc"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# Bash completion for Vagrant
+brew "vagrant-completion"
+# Secures, stores, and tightly controls access to secrets
+brew "vault"
+# Vi 'workalike' with many additional features
+brew "vim"
+# Vpnc-script replacement for easy and secure split-tunnel VPN setup
+brew "vpn-slice"
+# Extensible IRC client
+brew "weechat"
+# Internet file retriever
+brew "wget"
+# Graphical network analyzer and capture tool
+brew "wireshark", link: false
+# Access X11 clipboards from the command-line
+brew "xclip"
+# Linter for YAML files
+brew "yamllint"
+# JavaScript package manager
+brew "yarn"
+# Azure Functions Core Tools 3.0
+brew "azure/functions/azure-functions-core-tools@3"
+# Tools and libraries to manipulate images in many formats (X11 support)
+brew "tlk/imagemagick-x11/imagemagick"
+# Utility to set up alt-tab to switch between windows
+cask "alt-tab"
+# Transfer files from and to an Android smartphone
+cask "android-file-transfer"
+# Android SDK component
+cask "android-platform-tools"
+# E-books management software
+cask "calibre"
+# All-in-one installer for the tools you need to manage your Chef infrastructure
+cask "chef-workstation"
+# App to build and share containerized applications and microservices
+cask "docker-edge"
+cask "docker-toolbox"
+# QuickLook generator and Spotlight importer
+cask "epubquicklook"
+cask "fbreader"
+# Web browser
+cask "firefox"
+cask "font-source-code-pro"
+cask "font-source-code-pro-for-powerline"
+# Free and open-source image editor
+cask "gimp"
+# Web browser
+cask "google-chrome"
+# Set of tools to manage resources and applications hosted on Google Cloud
+cask "google-cloud-sdk"
+# Programming language for technical computing
+cask "julia"
+# Password manager app
+cask "keepassxc"
+cask "kobo"
+# Office suite
+cask "libreoffice"
+# E-reader
+cask "marginnote"
+# Visual diff and merge tool
+cask "meld"
+cask "microsoft-teams"
+# Orchestrates virtual Ubuntu instances
+cask "multipass"
+# Reverse proxy, secure introspectable tunnels to localhost
+cask "ngrok"
+# Interactive computing suite
+cask "nteract"
+# GitLab mirror - Graphical OpenConnect client (beta phase)
+cask "openconnect-gui"
+cask "openshot-video-editor"
+# Collaboration platform for API development
+cask "postman"
+# Command-line shell and scripting language
+cask "powershell"
+# Free and open-source IDE for Python programming - Community Edition
+cask "pycharm-ce"
+cask "securid"
+# Language and framework for policy as code
+cask "sentinel"
+# System monitor for the menu bar
+cask "stats"
+# Development environment
+cask "vagrant"
+# Free and open-source hosted hypervisor for x86 virtualization
+cask "virtualbox"
+# Create, manage, and run virtual machines
+cask "vmware-fusion"
+# Binary releases of VS Code without MS branding/telemetry/licensing
+cask "vscodium"
+# Network protocol analyzer
+cask "wireshark"
+# Open-source version of the X.Org X Window System
+cask "xquartz"
+# Video communication and virtual meeting platform
+cask "zoom"
