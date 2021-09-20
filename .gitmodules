@@ -88,3 +88,6 @@
 [submodule "vim-asciidoctor"]
 	path = vim-asciidoctor
 	url = https://github.com/habamax/vim-asciidoctor.git
+[submodule "vim-python-virtualenv"]
+	path = vim-python-virtualenv
+	url = https://github.com/sansyrox/vim-python-virtualenv.git
