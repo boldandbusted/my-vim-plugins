@@ -53,6 +53,16 @@ And repeat for each relevant git submodule directory.
 
 (Source: https://stackoverflow.com/a/18839908/2808798 )
 
+## Maintaining (behind the scenes)
+
+* To update all the modules, I'm generally doing this monstrosity:
+
+```shell
+git submodule update --remote --merge
+git commit -m "Yay, let's update!"
+git push
+```
+
 ### Thanks for all the good code!
 
 I welcome suggestions or doc PRs. :)
