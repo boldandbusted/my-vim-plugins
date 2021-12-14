@@ -1,10 +1,13 @@
 tap "azure/functions"
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "tlk/imagemagick-x11"
+# Run your GitHub Actions locally 🚀
+brew "act"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@1.1"
 # Automate deployment, configuration, and upgrading
@@ -13,6 +16,8 @@ brew "ansible"
 brew "ansible-lint"
 # Record and share terminal sessions
 brew "asciinema"
+# Extendable version manager with support for Ruby, Node.js, Erlang & more
+brew "asdf"
 # Use AWS IAM credentials to authenticate to Kubernetes
 brew "aws-iam-authenticator"
 # Official Amazon AWS command-line interface
@@ -25,6 +30,8 @@ brew "bandwhich"
 brew "bash"
 # Programmable completion for Bash 4.2+
 brew "bash-completion@2"
+# Remove large files or passwords from Git history like git-filter-branch
+brew "bfg"
 # Fish completion for brew-cask
 brew "brew-cask-completion"
 # Pipe HTML to a browser
@@ -69,6 +76,8 @@ brew "git-gui"
 brew "gnuplot"
 # Fast linters runner for Go
 brew "golangci-lint"
+# Version Control Visualization Tool
+brew "gource"
 # GNU grep, egrep and fgrep
 brew "grep"
 # GitHub Markdown previewer
@@ -123,6 +132,8 @@ brew "openssh"
 brew "packer"
 # Draw UML diagrams
 brew "plantuml"
+# Python package management tool
+brew "poetry"
 # Object-relational database system
 brew "postgresql"
 # Object-relational database system
@@ -143,8 +154,12 @@ brew "rdesktop"
 brew "reattach-to-user-namespace"
 # Powerful, clean, object-oriented scripting language
 brew "ruby"
+# Build applications with serverless architectures
+brew "serverless"
 # Work with remote images registries
 brew "skopeo"
+# Terminal based presentation tool
+brew "slides"
 # Proxy server that works as a poor man's VPN
 brew "sshuttle"
 # Version control system designed to be a better CVS
@@ -213,6 +228,8 @@ cask "epubquicklook"
 cask "fbreader"
 # Web browser
 cask "firefox"
+cask "font-courier-prime-code"
+cask "font-liberation"
 cask "font-source-code-pro"
 cask "font-source-code-pro-for-powerline"
 # Free and open-source image editor
@@ -232,6 +249,7 @@ cask "libreoffice"
 cask "marginnote"
 # Visual diff and merge tool
 cask "meld"
+# Meet, chat, call, and collaborate in just one place
 cask "microsoft-teams"
 # Orchestrates virtual Ubuntu instances
 cask "multipass"
@@ -246,7 +264,7 @@ cask "openshot-video-editor"
 cask "postman"
 # Command-line shell and scripting language
 cask "powershell"
-# Free and open-source IDE for Python programming - Community Edition
+# IDE for Python programming - Community Edition
 cask "pycharm-ce"
 cask "securid"
 # Language and framework for policy as code
