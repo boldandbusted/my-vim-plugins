@@ -59,6 +59,7 @@ And repeat for each relevant git submodule directory.
 
 ```shell
 git submodule update --remote --merge
+git add -u
 git commit -m "Yay, let's update!"
 git push
 ```
