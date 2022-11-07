@@ -88,6 +88,3 @@
 [submodule "vim-python-virtualenv"]
 	path = vim-python-virtualenv
 	url = https://github.com/sansyrox/vim-python-virtualenv.git
-[submodule "jedi-vim"]
-	path = jedi-vim
-	url = https://github.com/davidhalter/jedi-vim.git
