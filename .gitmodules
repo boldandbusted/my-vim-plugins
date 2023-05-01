@@ -91,3 +91,6 @@
 [submodule "jedi-vim"]
 	path = jedi-vim
 	url = https://github.com/davidhalter/jedi-vim.git
+[submodule "vim-base64"]
+	path = vim-base64
+	url = https://github.com/christianrondeau/vim-base64.git
