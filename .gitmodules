@@ -10,9 +10,6 @@
 [submodule "snipmate.vim"]
 	path = snipmate.vim
 	url = https://github.com/msanders/snipmate.vim.git
-[submodule "syntastic"]
-	path = syntastic
-	url = https://github.com/scrooloose/syntastic.git
 [submodule "tablify"]
 	path = tablify
 	url = https://github.com/Stormherz/tablify
@@ -94,3 +91,6 @@
 [submodule "vim-base64"]
 	path = vim-base64
 	url = https://github.com/christianrondeau/vim-base64.git
+[submodule "vim-emoji-ab"]
+	path = vim-emoji-ab
+	url = https://gitlab.com/gi1242/vim-emoji-ab
