@@ -94,3 +94,6 @@
 [submodule "vim-emoji-ab"]
 	path = vim-emoji-ab
 	url = https://gitlab.com/gi1242/vim-emoji-ab
+[submodule "markdown-preview.nvim"]
+	path = markdown-preview.nvim
+	url = https://github.com/iamcco/markdown-preview.nvim.git
