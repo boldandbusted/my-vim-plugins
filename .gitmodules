@@ -1,9 +1,6 @@
 [submodule "Vim-Jinja2-Syntax"]
 	path = Vim-Jinja2-Syntax
 	url = https://github.com/Glench/Vim-Jinja2-Syntax.git
-[submodule "YouCompleteMe"]
-	path = YouCompleteMe
-	url = https://github.com/ycm-core/YouCompleteMe.git
 [submodule "ansible-vim"]
 	path = ansible-vim
 	url = https://github.com/pearofducks/ansible-vim
