@@ -7,9 +7,6 @@
 [submodule "ansible-vim"]
 	path = ansible-vim
 	url = https://github.com/pearofducks/ansible-vim
-[submodule "snipmate.vim"]
-	path = snipmate.vim
-	url = https://github.com/msanders/snipmate.vim.git
 [submodule "tablify"]
 	path = tablify
 	url = https://github.com/Stormherz/tablify
