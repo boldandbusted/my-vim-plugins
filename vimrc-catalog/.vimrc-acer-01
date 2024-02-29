@@ -9,7 +9,10 @@ set mouse=a
 syntax on
 filetype plugin on
 filetype indent on
+set wildmenu
+set showmatch
 colorscheme slate
+
 setlocal spell spelllang=en
 highlight clear SpellBad
 highlight SpellBad term=standout ctermfg=1 term=underline cterm=underline
@@ -22,22 +25,9 @@ highlight SpellLocal term=underline cterm=underline
 "This unsets the "last search pattern" register by hitting return
 nnoremap <CR> :noh<CR><CR>
 
+
 set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 1
-let g:syntastic_aggregate_errors = 1
-
-" Enable checkers
-let g:syntastic_yaml_checkers = ['yamllint']
-let g:syntastic_python_checkers = ['pylint']
-"let g:syntastic_python_flake8_quiet_messages = {
-"  \ "type": "style" }
-"  \ "!level": "errors" }
 
 " Enable statusline
 set laststatus=2
@@ -100,7 +90,7 @@ let g:airline_symbols.linenr = '⭡'
 " Make Markdown work on .md files
 au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
 
-let g:instant_markdown_python = 0
+let g:instant_markdown_python = 1
 let g:instant_markdown_logfile = '/tmp/instant_markdown.log'
 
 " PlantUML
