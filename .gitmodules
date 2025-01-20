@@ -4,9 +4,6 @@
 [submodule "ansible-vim"]
 	path = ansible-vim
 	url = https://github.com/pearofducks/ansible-vim
-[submodule "tablify"]
-	path = tablify
-	url = https://github.com/Stormherz/tablify
 [submodule "tabular"]
 	path = tabular
 	url = https://github.com/godlygeek/tabular.git
@@ -28,9 +25,6 @@
 [submodule "vim-fugitive"]
 	path = vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
-[submodule "vim-instant-markdown"]
-	path = vim-instant-markdown
-	url = https://github.com/instant-markdown/vim-instant-markdown.git
 [submodule "vim-json"]
 	path = vim-json
 	url = https://github.com/elzr/vim-json/
@@ -85,9 +79,9 @@
 [submodule "vim-base64"]
 	path = vim-base64
 	url = https://github.com/christianrondeau/vim-base64.git
-[submodule "markdown-preview.nvim"]
-	path = markdown-preview.nvim
-	url = https://github.com/iamcco/markdown-preview.nvim.git
 [submodule "vim-indent-guides"]
 	path = vim-indent-guides
 	url = https://github.com/preservim/vim-indent-guides.git
+[submodule "markdown-preview.nvim"]
+	path = markdown-preview.nvim
+	url = https://github.com/iamcco/markdown-preview.nvim.git
