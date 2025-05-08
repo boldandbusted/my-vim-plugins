@@ -1,17 +1,31 @@
+set nocompatible
 set expandtab
 set softtabstop=2
 set tabstop=2
 set shiftwidth=2
-set sw=2
 set smarttab
-set nocompatible
 set mouse=a
+set smartindent
+set autoindent
 syntax on
 filetype plugin on
 filetype indent on
 set wildmenu
 set showmatch
 colorscheme slate
+
+" https://unix.stackexchange.com/a/568605/145209
+let g:airline#extensions#wordcount#filetypes = '\vasciidoc|help|mail|markdown|markdown.pandoc|pandoc|org|rst|tex|text'
+
+" Enable completion where available.
+" This setting must be set before ALE is loaded.
+"
+" You should not turn this setting on if you wish to use ALE as a completion
+" source for other completion plugins, like Deoplete.
+let g:ale_completion_enabled = 1
+
+" Set this. Airline will handle the rest.
+let g:airline#extensions#ale#enabled = 1
 
 setlocal spell spelllang=en
 highlight clear SpellBad
@@ -25,9 +39,8 @@ highlight SpellLocal term=underline cterm=underline
 "This unsets the "last search pattern" register by hitting return
 nnoremap <CR> :noh<CR><CR>
 
-
-set statusline+=%#warningmsg#
-set statusline+=%*
+" set statusline+=%#warningmsg#
+" set statusline+=%*
 
 " Enable statusline
 set laststatus=2
@@ -41,7 +54,7 @@ let g:airline_skip_empty_sections = 1
 " see ':help airline-customization'
 
 if !exists('g:airline_symbols')
-	let g:airline_symbols = {}
+  let g:airline_symbols = {}
 endif
 
 " unicode symbols
@@ -79,13 +92,13 @@ let g:airline_symbols.maxlinenr = '☰ '
 let g:airline_symbols.dirty='⚡'
 
 " old vim-powerline symbols
-let g:airline_left_sep = '⮀'
-let g:airline_left_alt_sep = '⮁'
-let g:airline_right_sep = '⮂'
-let g:airline_right_alt_sep = '⮃'
-let g:airline_symbols.branch = '⭠'
-let g:airline_symbols.readonly = '⭤'
-let g:airline_symbols.linenr = '⭡'
+"let g:airline_left_sep = '⮀'
+"let g:airline_left_alt_sep = '⮁'
+"let g:airline_right_sep = '⮂'
+"let g:airline_right_alt_sep = '⮃'
+"let g:airline_symbols.branch = '⭠'
+"let g:airline_symbols.readonly = '⭤'
+"let g:airline_symbols.linenr = '⭡'
 
 " Make Markdown work on .md files
 au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
@@ -100,8 +113,12 @@ au FileType plantuml let g:plantuml_previewer#plantuml_jar_path = get(matchlist(
 let g:ycm_python_interpreter_path = ''
 let g:ycm_python_sys_path = []
 let g:ycm_extra_conf_vim_data = [
-  \  'g:ycm_python_interpreter_path',
-  \  'g:ycm_python_sys_path'
-  \]
+      \  'g:ycm_python_interpreter_path',
+      \  'g:ycm_python_sys_path'
+      \]
 let g:ycm_global_ycm_extra_conf = '~/global_extra_conf.py'
+
+" vim-indent-guides
+let g:indent_guides_enable_on_vim_startup = 1
+
 
