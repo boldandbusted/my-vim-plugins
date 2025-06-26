@@ -31,9 +31,6 @@
 [submodule "vim-rust"]
 	path = vim-rust
 	url = https://github.com/rust-lang/rust.vim.git
-[submodule "vim-unimpaired"]
-	path = vim-unimpaired
-	url = https://github.com/tpope/vim-unimpaired.git
 [submodule "ale"]
 	path = ale
 	url = https://github.com/dense-analysis/ale.git
@@ -85,3 +82,12 @@
 [submodule "markdown-preview.nvim"]
 	path = markdown-preview.nvim
 	url = https://github.com/iamcco/markdown-preview.nvim.git
+[submodule "omnisharp-vim"]
+	path = omnisharp-vim
+	url = https://github.com/OmniSharp/omnisharp-vim
+[submodule "vim-sharpenup"]
+	path = vim-sharpenup
+	url = https://github.com/nickspoons/vim-sharpenup
+[submodule "fzf.vim"]
+	path = fzf.vim
+	url = https://github.com/junegunn/fzf.vim
