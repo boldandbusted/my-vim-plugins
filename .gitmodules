@@ -76,9 +76,9 @@
 [submodule "vim-indent-guides"]
 	path = vim-indent-guides
 	url = https://github.com/preservim/vim-indent-guides.git
-[submodule "markdown-preview.nvim"]
-	path = markdown-preview.nvim
-	url = https://github.com/iamcco/markdown-preview.nvim.git
 [submodule "YouCompleteMe"]
 	path = YouCompleteMe
 	url = https://github.com/ycm-core/YouCompleteMe.git
+[submodule "vivify.vim"]
+	path = vivify.vim
+	url = https://github.com/jannis-baum/vivify.vim
