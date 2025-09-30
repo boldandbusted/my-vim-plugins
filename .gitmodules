@@ -82,3 +82,6 @@
 [submodule "vivify.vim"]
 	path = vivify.vim
 	url = https://github.com/jannis-baum/vivify.vim
+[submodule "vim-ruby"]
+	path = vim-ruby
+	url = https://github.com/vim-ruby/vim-ruby
