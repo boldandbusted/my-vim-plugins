@@ -85,3 +85,6 @@
 [submodule "plantuml-previewer.vim"]
 	path = plantuml-previewer.vim
 	url = https://github.com/weirongxu/plantuml-previewer.vim
+[submodule "NrrwRgn"]
+	path = NrrwRgn
+	url = https://github.com/chrisbra/NrrwRgn
