@@ -82,3 +82,6 @@
 [submodule "vim-ruby"]
 	path = vim-ruby
 	url = https://github.com/vim-ruby/vim-ruby
+[submodule "plantuml-previewer.vim"]
+	path = plantuml-previewer.vim
+	url = https://github.com/weirongxu/plantuml-previewer.vim
