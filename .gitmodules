@@ -7,9 +7,6 @@
 [submodule "tabular"]
 	path = tabular
 	url = https://github.com/godlygeek/tabular.git
-[submodule "vdebug"]
-	path = vdebug
-	url = https://github.com/joonty/vdebug.git
 [submodule "vim-airline-themes"]
 	path = vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes
