@@ -85,3 +85,12 @@
 [submodule "NrrwRgn"]
 	path = NrrwRgn
 	url = https://github.com/chrisbra/NrrwRgn
+[submodule "vim-lsp-settings"]
+	path = vim-lsp-settings
+	url = https://github.com/mattn/vim-lsp-settings
+[submodule "vim-lsp"]
+	path = vim-lsp
+	url = https://github.com/prabirshrestha/vim-lsp
+[submodule "vim-go"]
+	path = vim-go
+	url = https://github.com/fatih/vim-go
