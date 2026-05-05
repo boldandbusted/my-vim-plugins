@@ -94,3 +94,12 @@
 [submodule "vim-go"]
 	path = vim-go
 	url = https://github.com/fatih/vim-go
+[submodule "asyncomplete-lsp.vim"]
+	path = asyncomplete-lsp.vim
+	url = https://github.com/prabirshrestha/asyncomplete-lsp.vim
+[submodule "asyncomplete.vim"]
+	path = asyncomplete.vim
+	url = https://github.com/prabirshrestha/asyncomplete.vim
+[submodule "vim-table-mode"]
+	path = vim-table-mode
+	url = https://github.com/dhruvasagar/vim-table-mode
